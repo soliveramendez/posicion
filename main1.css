@@ -1,0 +1,141 @@
+.caja_casa{
+  width: 800px;
+  height: 600px;
+  background-color: skyblue;
+  margin: 0 auto;
+  position:relative;
+
+
+}
+.pasto{
+  width: 800px;
+  height: 100px;
+  background-color: rgba(8, 214, 8, 0.87);
+  border: 1px solid #4CAF50;
+  position: absolute;
+  bottom:0px;
+}
+
+.base{
+  width: 400px;
+  height: 300px;
+  background-color: rgba(180, 34, 255, 0.89);
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  position: absolute;
+  left: 200px;
+  bottom:100px;
+}
+
+.techo{
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  left: 150px;
+  border-bottom: 100px solid rgba(255, 34, 156, 0.89);
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+
+}
+.ventana1{
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.17);
+  margin: 0 auto;
+  left: 200px;
+  position: absolute;
+  right: 50px;
+  top: 250px;
+
+}
+.ventana2{
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.17);
+  margin: 0 auto;
+  left: -100px;
+  position: absolute;
+  right: 50px;
+  top: 250px;
+}
+
+.puerta{
+  display:inline-block;
+  width: 70px;
+  height: 150px;
+  background: rgb(0, 255, 243);
+  left: 360px;
+  position: absolute;
+  right: 50px;
+  top: 350px;
+}
+
+.chimenea{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  background: #af35fd;
+  border: 2px solid rgba(0, 0, 0, 0.16);
+  left: 500px;
+  position: absolute;
+  top: 60px;
+}
+.humo1{
+  width: 30px;
+  height: 30px;
+  background: hsla(0, 5%, 63%, 0.68);
+  border-radius:500px /600px;
+  left: 500px;
+  position: absolute;
+  top: 20px;
+}
+.humo2{
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  background: hsla(0, 5%, 63%, 0.68);
+  border-radius:500px /600px;
+  position: absolute;
+  top: 10px;
+  left: 550px;
+}
+
+.humo3{
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  background: hsla(0, 5%, 63%, 0.68);
+  border-radius:500px /600px;
+  position: absolute;
+  top: 10px;
+  left: 600px;
+}
+.tronco{
+  display:inline-block;
+  width: 40px;
+  height: 100px;
+  background: hsla(47, 92%, 39%, 0.92);
+  border: 2px solid rgba(0, 0, 0, 0.17);
+  position: absolute;
+  top: 400px;
+  left: 80px;
+}
+.arbol{
+  width:100px;
+  height:200px;
+  border-radius:500px /600px;
+  background:yellowgreen;
+  position:absolute;
+  top: 230px;
+  left: 55px;
+}
+.sol{
+  width:100px;
+  height:100px;
+  border-radius:100px;
+  background:yellow;
+  position:absolute;
+  top: 40px;
+  left: 55px;
+ }

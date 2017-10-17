@@ -1,0 +1,41 @@
+.contenedor{
+  background: pink;
+  border: 2px solid blue;
+  overflow: hidden;
+  clear: both;
+  }
+
+h1{
+  text-align: center;
+
+}
+p{
+  text-align: center;
+  font: 110% sans-serif;
+
+}
+li{
+  float: left;
+  height: 30px;
+  margin-left: 150px;
+  font: 110% sans-serif;
+  margin: 40px;
+
+  }
+.img2{
+  float:right;
+  margin:0em, 2em;
+  border:0px solid black;
+  width: 250px;
+
+}
+.img1{
+  float:left;
+  margin:0em, 2em;
+  border:0px solid black;
+  width: 250px;
+  text-align: center;
+}
+.fa-heart-o{
+width: 750px;
+}
